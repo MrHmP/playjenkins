@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: harbor.workshop.tw:30002/endgame/endgame:latest
+      - image: 157.245.106.245:30002/endgame/endgame:latest
         imagePullPolicy: Always
         name: myweb
 ---
