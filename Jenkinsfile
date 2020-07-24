@@ -26,7 +26,7 @@ pipeline {
     stage('Push Image') {
       steps{
         script {
-          docker.withRegistry( "harbor.workshop.tw:30002", registryCredential ) {
+          docker.withRegistry( "157.245.106.245:30002", registryCredential ) {
             dockerImage.push()
           }
         }
