@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: saptaktw/endgame:latest
+      - image: dockeronetwothree/endgame:latest
         imagePullPolicy: Always
         name: myweb
 ---
