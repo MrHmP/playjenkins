@@ -1,8 +1,8 @@
 pipeline {
 
   environment {
-    registry = "dockeronetwothree/endgame"
-    registryCredential = 'dockerhub'
+    registry = "harbor.workshop.tw:30002/endgame/endgame"
+    registryCredential = 'harbor'
     dockerImage = ""
   }
 
